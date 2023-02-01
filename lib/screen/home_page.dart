@@ -155,16 +155,16 @@ class _HomePageState extends State<HomePage> {
                           })
                         ],
                       ),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: const [
-                          Image(
-                              image: AssetImage('assets/buenFin.png'),
-                              height: 120),
-                        ],
-                      ),
+                      // Row(
+                      //   mainAxisAlignment: MainAxisAlignment.center,
+                      //   children: const [
+                      //     Image(
+                      //         image: AssetImage('assets/buenFin.png'),
+                      //         height: 120),
+                      //   ],
+                      // ),
                       SizedBox(
-                        height: height * 0.03,
+                        height: height * 0.1,
                       ),
                       Center(
                         child: Text(
